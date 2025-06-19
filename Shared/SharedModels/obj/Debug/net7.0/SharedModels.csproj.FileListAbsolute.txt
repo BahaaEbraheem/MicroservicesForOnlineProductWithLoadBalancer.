@@ -9,3 +9,4 @@ C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Debug\net7.0\
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Debug\net7.0\refint\SharedModels.dll
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Debug\net7.0\SharedModels.pdb
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Debug\net7.0\ref\SharedModels.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Debug\net7.0\SharedModels.sourcelink.json

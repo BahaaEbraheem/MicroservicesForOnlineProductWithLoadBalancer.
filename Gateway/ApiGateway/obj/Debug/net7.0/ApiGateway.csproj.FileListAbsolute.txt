@@ -51,3 +51,4 @@ C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Gateway\ApiGateway\obj\Debug\net7.0\r
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Gateway\ApiGateway\obj\Debug\net7.0\ApiGateway.pdb
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Gateway\ApiGateway\obj\Debug\net7.0\ApiGateway.genruntimeconfig.cache
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Gateway\ApiGateway\obj\Debug\net7.0\ref\ApiGateway.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Gateway\ApiGateway\obj\Debug\net7.0\ApiGateway.sourcelink.json

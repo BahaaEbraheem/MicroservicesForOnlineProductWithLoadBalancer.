@@ -80,3 +80,4 @@ C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Services\OrdersService\bin\Debug\net7
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Services\OrdersService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Services\OrdersService\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Services\OrdersService\bin\Debug\net7.0\System.CodeDom.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Services\OrdersService\obj\Debug\net7.0\OrdersService.sourcelink.json
