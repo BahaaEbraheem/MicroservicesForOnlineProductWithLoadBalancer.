@@ -1,8 +1,43 @@
-var builder = WebApplication.CreateBuilder(args);
+using ApiGateway.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+using System.Text;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Configuration
+       .SetBasePath(builder.Environment.ContentRootPath)
+       .AddJsonFile("ocelot.json", optional: false, reloadOnChange: true)
+       .AddEnvironmentVariables();
 // Add services to the container.
 builder.Services.AddControllers();
+// إضافة مصادقة JWT
+// إضافة JWT Authentication
+var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var secretKey = jwtSettings["SecretKey"] ?? "MyVeryLongSecretKeyForJWTTokenGeneration123456789";
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"] ?? "ECommerceSystem",
+        ValidAudience = jwtSettings["Audience"] ?? "ECommerceUsers",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
+builder.Services.AddAuthorization();
 // إضافة HttpClient
 builder.Services.AddHttpClient();
 
@@ -27,6 +62,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "بوابة API البسيطة - نظام التجارة الإلكترونية"
     });
 });
+builder.Services.AddOcelot(builder.Configuration);
 
 var app = builder.Build();
 
@@ -38,9 +74,17 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger"; // Swagger متاح على /swagger
 });
 
-// تكوين pipeline
+app.UseRouting();
+
 app.UseCors("AllowAll");
-// app.UseHttpsRedirection(); // معطل لتجنب مشاكل HTTP
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseMiddleware<ApiGateway.Middleware.JwtMiddleware>();
+
+
+
 
 app.MapControllers();
 
@@ -115,51 +159,8 @@ var homepageContent = @"
 app.MapGet("/", () => Results.Content(homepageContent, "text/html"));
 app.MapGet("/index.html", () => Results.Content(homepageContent, "text/html"));
 
-// إضافة endpoint للتحقق من صحة Gateway
-app.MapGet("/health", () => new
-{
-    Status = "Healthy",
-    Service = "API Gateway",
-    Timestamp = DateTime.UtcNow,
-    Services = new
-    {
-        Products = "http://localhost:5001",
-        Users = "http://localhost:5002",
-        Orders = "http://localhost:5003",
-        Payments = "http://localhost:5004"
-    }
-});
+app.UseMiddleware<JwtMiddleware>(); // قبل UseOcelot
 
-// إضافة proxy endpoints بسيط للخدمات
-app.MapGet("/api/products", async (IHttpClientFactory httpClientFactory) =>
-{
-    try
-    {
-        var httpClient = httpClientFactory.CreateClient();
-        var response = await httpClient.GetStringAsync("http://localhost:5001/api/products");
-        return Results.Content(response, "application/json");
-    }
-    catch (Exception ex)
-    {
-        return Results.Problem($"خطأ في الاتصال بخدمة المنتجات: {ex.Message}");
-    }
-});
-
-app.MapPost("/api/users/login", async (IHttpClientFactory httpClientFactory, HttpRequest request) =>
-{
-    try
-    {
-        var httpClient = httpClientFactory.CreateClient();
-        var body = await new StreamReader(request.Body).ReadToEndAsync();
-        var content = new StringContent(body, System.Text.Encoding.UTF8, "application/json");
-        var response = await httpClient.PostAsync("http://localhost:5002/api/users/login", content);
-        var result = await response.Content.ReadAsStringAsync();
-        return Results.Content(result, "application/json");
-    }
-    catch (Exception ex)
-    {
-        return Results.Problem($"خطأ في الاتصال بخدمة المستخدمين: {ex.Message}");
-    }
-});
+await app.UseOcelot();
 
 app.Run();
