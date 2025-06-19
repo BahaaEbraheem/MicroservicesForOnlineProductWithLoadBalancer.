@@ -157,4 +157,9 @@ app.MapPost("/api/users/login", async (IHttpClientFactory httpClientFactory, Htt
         return Results.Content(result, "application/json");
     }
     catch (Exception ex)
-    
+    {
+        return Results.Problem($"خطأ في الاتصال بخدمة المستخدمين: {ex.Message}");
+    }
+});
+
+app.Run();
