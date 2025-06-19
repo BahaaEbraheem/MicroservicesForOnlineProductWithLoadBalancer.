@@ -1,0 +1,17 @@
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\PaymentsService.exe
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\appsettings.Development.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\appsettings.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\PaymentsService.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\PaymentsService.deps.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\PaymentsService.runtimeconfig.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\PaymentsService.pdb
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Microsoft.OpenApi.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\SharedModels.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\PaymentsService\SharedModels.pdb

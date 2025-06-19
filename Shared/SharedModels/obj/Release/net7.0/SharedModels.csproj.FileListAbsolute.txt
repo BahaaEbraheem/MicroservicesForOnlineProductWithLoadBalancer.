@@ -1,0 +1,11 @@
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\bin\Release\net7.0\SharedModels.deps.json
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\bin\Release\net7.0\SharedModels.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\bin\Release\net7.0\SharedModels.pdb
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.AssemblyInfoInputs.cache
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.AssemblyInfo.cs
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.csproj.CoreCompileInputs.cache
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\refint\SharedModels.dll
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\SharedModels.pdb
+C:\SVU\WDC\MWS_WDC_HW1_F24_C1_Bahaa_314468\Shared\SharedModels\obj\Release\net7.0\ref\SharedModels.dll

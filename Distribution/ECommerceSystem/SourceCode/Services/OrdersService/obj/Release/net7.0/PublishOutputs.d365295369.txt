@@ -1,0 +1,17 @@
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\OrdersService.exe
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\appsettings.Development.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\appsettings.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\OrdersService.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\OrdersService.deps.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\OrdersService.runtimeconfig.json
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\OrdersService.pdb
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Microsoft.OpenApi.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\SharedModels.dll
+C:\Users\PC\Documents\augment-projects\MWS_WDC_F24_HW1\Published\OrdersService\SharedModels.pdb

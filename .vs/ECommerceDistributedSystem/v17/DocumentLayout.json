@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FF93A3-207F-4286-A3FB-8DC9C24E3A25}|Gateway\\ApiGateway\\ApiGateway.csproj|c:\\svu\\wdc\\mws_wdc_hw1_f24_c1_bahaa_314468\\gateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FF93A3-207F-4286-A3FB-8DC9C24E3A25}|Gateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:gateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A968E05-E1D4-4589-ABD4-D056A119D54A}|Services\\ProductsService\\ProductsService.csproj|c:\\svu\\wdc\\mws_wdc_hw1_f24_c1_bahaa_314468\\services\\productsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A968E05-E1D4-4589-ABD4-D056A119D54A}|Services\\ProductsService\\ProductsService.csproj|solutionrelative:services\\productsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{630D4BF7-4CF0-45FB-8408-294A174016CC}|Services\\UsersService\\UsersService.csproj|c:\\svu\\wdc\\mws_wdc_hw1_f24_c1_bahaa_314468\\services\\usersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{630D4BF7-4CF0-45FB-8408-294A174016CC}|Services\\UsersService\\UsersService.csproj|solutionrelative:services\\usersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{630D4BF7-4CF0-45FB-8408-294A174016CC}|Services\\UsersService\\UsersService.csproj|c:\\svu\\wdc\\mws_wdc_hw1_f24_c1_bahaa_314468\\services\\usersservice\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{630D4BF7-4CF0-45FB-8408-294A174016CC}|Services\\UsersService\\UsersService.csproj|solutionrelative:services\\usersservice\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A968E05-E1D4-4589-ABD4-D056A119D54A}|Services\\ProductsService\\ProductsService.csproj|c:\\svu\\wdc\\mws_wdc_hw1_f24_c1_bahaa_314468\\services\\productsservice\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A968E05-E1D4-4589-ABD4-D056A119D54A}|Services\\ProductsService\\ProductsService.csproj|solutionrelative:services\\productsservice\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Gateway\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway\\ApiGateway\\Program.cs",
+              "ToolTip": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Gateway\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "Gateway\\ApiGateway\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAawDoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:54:45.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\ProductsService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\ProductsService\\Program.cs",
+              "ToolTip": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\ProductsService\\Program.cs",
+              "RelativeToolTip": "Services\\ProductsService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:53:48.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\UsersService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\UsersService\\Program.cs",
+              "ToolTip": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\UsersService\\Program.cs",
+              "RelativeToolTip": "Services\\UsersService\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:33:29.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\UsersService\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Services\\UsersService\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\UsersService\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Services\\UsersService\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:33:14.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\ProductsService\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Services\\ProductsService\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\SVU\\WDC\\MWS_WDC_HW1_F24_C1_Bahaa_314468\\Services\\ProductsService\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Services\\ProductsService\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:33:01.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

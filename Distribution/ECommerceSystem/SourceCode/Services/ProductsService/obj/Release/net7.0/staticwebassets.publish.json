@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FNVaaOzbecwD86CjngowTf8ysYk2JqSWCudwkNUB0oc=",
+  "Source": "ProductsService",
+  "BasePath": "_content/ProductsService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
