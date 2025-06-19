@@ -38,8 +38,7 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddAuthorization();
-// إضافة HttpClient
-builder.Services.AddHttpClient();
+
 
 // إضافة CORS
 builder.Services.AddCors(options =>
@@ -51,6 +50,9 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+// إضافة HttpClient
+builder.Services.AddHttpClient();
+builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -81,12 +83,11 @@ app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseMiddleware<ApiGateway.Middleware.JwtMiddleware>();
+app.UseMiddleware<JwtMiddleware>();
 
 
 
 
-app.MapControllers();
 
 // إضافة الصفحة الرئيسية
 var homepageContent = @"
@@ -156,10 +157,14 @@ var homepageContent = @"
 </body>
 </html>";
 
-app.MapGet("/", () => Results.Content(homepageContent, "text/html"));
-app.MapGet("/index.html", () => Results.Content(homepageContent, "text/html"));
-
-app.UseMiddleware<JwtMiddleware>(); // قبل UseOcelot
+app.MapWhen(context => context.Request.Path == "/" || context.Request.Path == "/index.html", appBuilder =>
+{
+    appBuilder.Run(async context =>
+    {
+        context.Response.ContentType = "text/html";
+        await context.Response.WriteAsync(homepageContent);
+    });
+});
 
 await app.UseOcelot();
 
