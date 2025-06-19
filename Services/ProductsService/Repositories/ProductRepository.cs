@@ -108,7 +108,7 @@ public class ProductRepository : IProductRepository
     public async Task<IEnumerable<Product>> SearchAsync(string searchTerm)
     {
         return await _context.Products
-            .Where(p => p.Name.Contains(searchTerm) || p.Description.Contains(searchTerm))
+            .Where(p => p.Name.Contains(searchTerm) || p.Description.Contains(searchTerm) || p.Category.Contains(searchTerm))
             .ToListAsync();
     }
 

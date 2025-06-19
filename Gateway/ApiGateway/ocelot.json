@@ -29,10 +29,6 @@
       ],
       "LoadBalancerOptions": {
         "Type": "RoundRobin"
-      },
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": [ "products_api" ]
       }
     },
 
